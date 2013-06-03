@@ -15,4 +15,12 @@ public class RestaurantAndMenus {
 		this.menus = menus;
 	}
 
+	public Restaurant getRestaurant() {
+		return restaurant;
+	}
+
+	public Menu[] getMenus() {
+		return menus;
+	}
+	
 }

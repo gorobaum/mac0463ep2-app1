@@ -22,4 +22,24 @@ public class Menu {
 		this.kcal = kcal;
 	}
 
+	public int getId() {
+		return id;
+	}
+
+	public int getRestaurant_id() {
+		return restaurant_id;
+	}
+
+	public int getMeal_id() {
+		return meal_id;
+	}
+
+	public String getOptions() {
+		return options;
+	}
+
+	public String getKcal() {
+		return kcal;
+	}
+
 }

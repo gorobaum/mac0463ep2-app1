@@ -19,4 +19,19 @@ public class Restaurant {
 		this.id = id;
 	}
 
+	public String getName() {
+		return name;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public String getTel() {
+		return tel;
+	}
+
+	public int getId() {
+		return id;
+	}
 }
